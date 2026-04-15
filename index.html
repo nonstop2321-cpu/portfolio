@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mykyta Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mykyta Nikiforov</h1>
+    <p class="subtitle">
+      Начинающий Frontend-разработчик. Делаю простые сайты и лендинги. Готов брать первые заказы.
+    </p>
+
+    <div class="card">
+      <h2>Мой финальный проект</h2>
+      <p>
+        Адаптивный сайт, созданный с использованием HTML и CSS.
+        Реализована структура страницы, стилизация и базовая адаптация под разные устройства.
+      </p>
+      <p><b>Технологии:</b> HTML, CSS</p>
+
+      <div class="buttons">
+        <a
+          href="https://nonstop2321-cpu.github.io/recipe-app"
+          target="_blank"
+          class="btn btn-blue">Смотреть проект</a>
+        <a
+    href="https://github.com/nonstop2321-cpu/recipe-app"
+    target="_blank"
+    class="btn btn-dark">GitHub проекта</a>
+</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Сертификат</h2>
+      <img
+        src="certificate.jpg"
+        alt="Сертификат"
+        class="certificate-img"
+        id="certificatePreview"
+      />
+    </div>
+
+    <div class="card">
+      <h2>Контакты</h2>
+      <a href="https://t.me/tokitooo" target="_blank" class="telegram-link">Написать в Telegram</a>
+    </div>
+  </div>
+
+  <div class="modal" id="certificateModal">
+    <span class="close" id="closeModal">&times;</span>
+    <img src="certificate.jpg" alt="Сертификат" class="modal-content" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
